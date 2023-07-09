@@ -85,11 +85,11 @@ class MyClassifier:
         return class_predictions
 
 
-training_spam = np.loadtxt(open("data/training_spam.csv"), delimiter=",").astype(np.int)
+training_spam = np.loadtxt(open("/Users/cristoforegrasso/Desktop/Artificial_Intelligence/Graded assignment 4_Done/week 6-assignment/spamfilter/data/training_spam.csv"), delimiter=",").astype(np.int)
 print("Shape of the spam training data set:", training_spam.shape)
 print(training_spam)
 
-testing_spam = np.loadtxt(open("data/testing_spam.csv"), delimiter=",").astype(np.int)
+testing_spam = np.loadtxt(open("/Users/cristoforegrasso/Desktop/Artificial_Intelligence/Graded assignment 4_Done/week 6-assignment/spamfilter/data/testing_spam.csv"), delimiter=",").astype(np.int)
 print("Shape of the spam testing data set:", testing_spam.shape)
 print(testing_spam)
 
