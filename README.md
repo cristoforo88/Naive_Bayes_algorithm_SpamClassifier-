@@ -15,7 +15,9 @@ You can install these prerequisites by using pip, a package manager for Python.
 
 ```bash
 pip install numpy pandas
-
+</p>
+</details>
+```
 
 
 
