@@ -10,14 +10,6 @@ pandas (only if you want to use it for loading the data)
 
 You can install these prerequisites by using pip, a package manager for Python.
 
-<details>
-<summary>Click to expand code snippet</summary>
-
-```bash
-pip install numpy pandas
-</p>
-</details>
-```
 
 
 
@@ -29,21 +21,7 @@ Compare your predictions to the true labels to evaluate the accuracy of the mode
 
 For example:
 
-<p align="center">
-  <a href="javascript:void(0);" onclick="navigator.clipboard.writeText('pip install numpy pandas'); alert('Code copied!')">Copy code</a>
-</p>
-</details>
-```
 
-<p align="center">
-  <a href="javascript:void(0);" onclick="navigator.clipboard.writeText(`spam_classifier = MyClassifier()
-spam_classifier.train(training_spam[:, 1:], training_spam[:, 0])
-predictions = spam_classifier.predict(testing_spam[:, 1:])
-accuracy = np.count_nonzero(predictions == test_labels) / test_labels.shape[0]
-print(f'accuracy on test data: {accuracy}')`); alert('Code copied!')">Copy code</a>
-</p>
-</details>
-```
 
 
 ## Data Format
